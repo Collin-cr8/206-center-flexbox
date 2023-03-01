@@ -97,7 +97,7 @@ textarea {
 
 /*Large Background Image*/
 html {
-    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    background: url(../img/salah-unsplash.jpg) no-repeat center fixed;
     background-size: cover;
     height:100%;
    /* set height to 100% - these are important for allowing content to vertically align */
@@ -120,9 +120,9 @@ body {
 
 #content {
     /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
-    background: #222;
-    background:rgba(0,0,0,0.7);
-    color: #fff;
+    background: hsl(0, 0%, 2%);
+    background:rgba(83, 155, 249, 0.7);
+    color: rgb(15, 15, 15);
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 1.25em;
@@ -138,6 +138,10 @@ body {
 
 #content p span {
     font-family: 'Lora', sans-serif;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size:1.125em;
+    color: rgb(7, 243, 42);
 }
 
 
